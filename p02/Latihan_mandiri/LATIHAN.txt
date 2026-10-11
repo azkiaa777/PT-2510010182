@@ -1,0 +1,23 @@
+Soal 3: Catatan Perbedaan Sikap Compiler (Narrowing Conversion)
+- int nilai = 85.7;
+  Compiler meloloskan program tanpa error/warning, tetapi nilai pecahan (.7) dibuang diam-diam sehingga nilainya menjadi 85.
+- int nilai{85.7};
+  Compiler menolak dan mengeluarkan error 'narrowing conversion' karena mengubah pecahan (double) to bilangan bulat (int) berpotensi membuang data.
+
+
+Soal 4: 5 Contoh Nama Variabel Buruk dan Usulan Perbaikannya
+
+1. 'n' -> 'nama_mahasiswa'
+   Alasan: Huruf tunggal 'n' ambigu (bisa berarti nama, nilai, atau jumlah). 'nama_mahasiswa' langsung menjelaskan isinya.
+
+2. 'x' -> 'nilai_uts'
+   Alasan: 'x' tidak punya arti di luar konteks matematika dasar. 'nilai_uts' jelas menunjukkan variabel penampung nilai UTS.
+
+3. 'a' & 'b' -> 'nilai_kehadiran' & 'nilai_mingguan'
+   Alasan: Menggunakan abjad acak bikin bingung data mana yang diwakili.
+
+4. 'temp' -> 'total_nilai'
+   Alasan: 'temp' biasanya dipakai untuk variabel sementara, bukan untuk hasil perhitungan akhir yang penting.
+
+5. 'data1' -> 'nomor_npm'
+   Alasan: Penamaan dengan penomoran acak ('data1', 'data2') tidak menggambarkan jenis data yang disimpan (apakah teks, angka, atau ID).
