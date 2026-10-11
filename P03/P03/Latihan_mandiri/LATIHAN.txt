@@ -1,0 +1,17 @@
+=== LATIHAN MANDIRI PERTEMUAN 3 ===
+
+Soal 3:
+Nilai Akhir dan Rerata Polos bakal sama persis kalau semua komponen nilainya (Kehadiran, Mingguan, UTS, UAS) angkanya sama semua. Contohnya kalau semuanya dapet 100, atau semuanya dapet 85.
+
+Soal 4:
+1. 2 * 3 / 4
+   - C++: Hasilnya 1 (karena pembagian int, jadi angka belakang koma langsung dibuang).
+   - Python: Hasilnya 1.5 (di Python operator / otomatis ubah hasil jadi desimal/float).
+
+2. 2 / 4 * 3
+   - C++: Hasilnya 0 (soalnya 2/4 dihitung duluan jadi 0, terus 0 * 3 ya tetap 0).
+   - Python: Hasilnya 1.5 (2/4 dapet 0.5, terus dikali 3 jadi 1.5).
+
+3. -7 / 2
+   - C++: Hasilnya -3 (C++ motong koma ke arah angka nol).
+   - Python: Hasilnya -4 (Python membulatkan angka desimal negatif ke bawah).
