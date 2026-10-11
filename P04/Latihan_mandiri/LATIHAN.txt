@@ -1,0 +1,11 @@
+=== LATIHAN MANDIRI PERTEMUAN 4 ===
+
+Soal 1: Flowchart Huruf Mutu
+Yang berulang dari flowchart 7 tingkat huruf mutu adalah pola percabangannya (belah ketupat) yang mengecek nilai secara bertingkat dari atas ke bawah. Kalau syaratnya 'ya', langsung cetak hurufnya dan selesai. Kalau 'tidak', baru lanjut ke pengecekan syarat di bawahnya.
+
+Soal 4: Perubahan switch_menu.cpp (char & case 'k')
+Saat pilihan diganti ke tipe char ('1', '2', '3'), nilai di dalam case harus diapit tanda kutip tunggal. Penambahan case 'k' digunakan sebagai pilihan/opsi untuk keluar dari program.
+
+Soal 5: switch dengan static_cast<int>(nilai) / 10 vs 79.9
+Hasilnya TIDAK sama untuk angka desimal seperti 79.9.
+Sebab: 79.9 diubah ke int jadi 79, terus 79 / 10 hasilnya 7 (masuk ke case 7 / nilai B). Padahal di aturan asli, nilai 79.9 seharusnya dapet B+ (rentang 75-79.9). switch pembagian 10 ini kehilangan presisi desimal untuk batas nilai B+ dan C+.
