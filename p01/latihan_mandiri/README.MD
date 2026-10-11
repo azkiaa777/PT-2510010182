@@ -5,3 +5,10 @@ Pada latihan ini dilakukan beberapa percobaan, yaitu memperbaiki program `rerata
 Percobaan terakhir dilakukan pada `rerata_awal.cpp` dengan membandingkan proses kompilasi menggunakan `g++` tanpa warning dan menggunakan `g++ -Wall -Wextra`. Dengan penggunaan warning, compiler memberikan peringatan bahwa variabel `tugas`, `uts`, dan `uas` belum digunakan.
 
 Melalui latihan ini dapat dipahami cara memperbaiki kesalahan program, membaca pesan error dan warning dari compiler, serta pentingnya penggunaan opsi warning saat melakukan kompilasi program C++.
+
+## Deklarasi AI
+
+**Label AI: AI 1**  
+AI yang digunakan: ChatGPT.  
+Prompt: Membantu mencari referensi terkait kesalahan pada program C++ dan memberikan masukan terhadap kode yang telah dibuat.  
+Umpan balik AI: AI digunakan sebagai referensi tambahan ketika menemukan kesulitan. Saya tetap mencoba mengerjakan dan menguji program secara mandiri untuk memastikan hasilnya sesuai dengan instruksi praktikum.
